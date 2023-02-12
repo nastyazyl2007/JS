@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<HTML>
+    <HEAD>
+        <meta charset="utf-8">
+    <TITLE>Операторы ? и его использование</title>
+    </HEAD>
+    <BODY>
+        <script>
+         let a = prompt(' Введите сюда значение переменной:', "100");
+         let c = ( a = Number(a)) ? alert(a):
+         ' Неверное значение ';
+         alert(c);
+         let b = prompt(' Введите сюда значение переменной:', "100");
+         let k = ( b = Number(b)) ? alert(b):
+         ' Неверное значение ';
+         alert(k);
+         let res = 
+         ((+a + +a) == b) ? 'Значения равны':
+         ((+a + +a) > b) ?'Значения не равны':
+         ((+a + +a) < b) ?'Значения не равны':
+         '...';
+         alert(res);
+         </script>
+    </BODY>
+    </HTML>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<HTML>
+    <HEAD>
+        <meta charset="utf-8">
+    <TITLE>Операторы ? и его использование</title>
+    </HEAD>
+    <BODY>
+        <script>
+         let a = prompt(' Введите сюда значение переменной:', "10");
+         let m = ( a = Number(a)) ? alert(a):
+         ' Неверное значение ';
+         alert(m);
+         let b = prompt(' Введите сюда значение переменной:', "10");
+         let k = ( b = Number(b)) ? alert(b):
+         ' Неверное значение ';
+         alert(k);
+         let c = prompt(' Введите сюда значение переменной:', "10");
+         let l = ( c = Number(c)) ? alert(c):
+         ' Неверное значение ';
+         alert(l);
+         let res = 
+         ((a*a+b*b) == c*c) ? 'Ура: Вы угадали длины треугольника':
+         ((a*a+b*b) > c*c) ? 'Надо учить теорему':
+         ((a*a+b*b) < c*c) ? 'Надо учить теорему':
+         '...'
+         alert(res);
+         </script>
+    </BODY>
+    </HTML>
